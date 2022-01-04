@@ -1,0 +1,215 @@
+.body-background {
+  background-color: red;
+}
+
+.snowman {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 20%;
+  width: 300px;
+  height: 300px;
+}
+
+.snowman-hat-top {
+  top: -15%;
+  left: 31%;
+  background-color: black;
+  width: 31%;
+  height: 30%;
+  border-radius: 20% 20%;
+}
+
+.snowman-hat-bottom {
+  top: 6%;
+  left: 26%;
+  background-color: black;
+  width: 42%;
+  height: 10%;
+  border-radius: 40% 40% 40% 40%;
+}
+
+.snowman-head {
+  top: 10%;
+  left: 27%;
+  background-color: white;
+  width: 40%;
+  height: 35%;
+  border-radius: 40% 40% 60% 60%;
+}
+
+.right-eye {
+  top: 20%;
+  left: 55%;
+  background: black;
+  width: 15%;
+  height: 17%;
+  border-radius: 50%;
+}
+
+.left-eye {
+  top: 20%;
+  left: 30%;
+  background: black;
+  width: 15%;
+  height: 17%;
+  border-radius: 50%;
+}
+
+.sparkle {
+  top: 25%;
+  left: 45%;
+  background: white;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+}
+
+.blush-right {
+  top: 40%;
+  left: 20%;
+  background: pink;
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.snowman-nose {
+  top: 42%;
+  left: 42%;
+  background: orange;
+  border-radius: 30% 80% 30% 60%;
+  transform: rotate(23deg);
+  width: 25%;
+  height: 20%;
+}
+
+.blush-left {
+  top: 40%;
+  left: 65%;
+  background: pink;
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.smile-1 {
+  top: 68%;
+  left: 31%;
+  background-color: black;
+  width: 8%;
+  height: 8%;
+  border-radius: 50%;
+}
+
+.smile-2 {
+  top: 71%;
+  left: 48%;
+  background-color: black;
+  width: 8%;
+  height: 8%;
+  border-radius: 50%;
+}
+
+.smile-3 {
+  top: 68%;
+  left: 65%;
+  background-color: black;
+  width: 8%;
+  height: 8%;
+  border-radius: 50%;
+}
+
+.snowman-middle {
+  top: 38%;
+  left: 22.9%;
+  background-color: white;
+  width: 51%;
+  height: 42%;
+  border-radius: 100% 100% 100% 100%;
+}
+
+.button-1 {
+  top: 30%;
+  left: 45%;
+  background-color: black;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.button-2 {
+  top: 60%;
+  left: 45%;
+  background-color: black;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
+
+.button-3 {
+  top: 21%;
+  left: 45%;
+  background-color: black;
+  width: 8%;
+  height: 8%;
+  border-radius: 50%;
+}
+
+.snowman-bottom {
+  top: 68%;
+  left: 17.5%;
+  background-color: white;
+  width: 63%;
+  height: 55%;
+  border-radius: 100% 100% 100% 100%;
+}
+
+/* Waving! */
+@keyframes wave {
+  10% {
+    transform: rotate(110deg);
+  }
+
+  20% {
+    transform: rotate(130deg);
+  }
+
+  30% {
+    transform: rotate(110deg);
+  }
+
+  40% {
+    transform: rotate(130deg);
+  }
+}
+
+.right-hand {
+  top: 52%;
+  left: 35%;
+  background-color: black;
+  width: 5%;
+  height: 50%;
+  border-radius: 10% 10% 10% 10%;
+  transform: rotate(130deg);
+  z-index: -1;
+  animation-duration: 3s;
+  animation-name: wave;
+  animation-iteration-count: infinite;
+  transform-origin: 0% 0%;
+  animation-timing-function: linear;
+}
+
+.left-hand{
+  top: 14%;
+  left: 78%;
+  background-color: black;
+  width: 5%;
+  height: 50%;
+  border-radius: 10% 10% 10% 10%;
+  transform: rotate(230deg);
+  z-index: -1;
+}
+.snowman * {
+  position: absolute;
+}
